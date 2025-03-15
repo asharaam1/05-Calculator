@@ -1,12 +1,45 @@
-# React + Vite
+# React Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple calculator built using **React.js** and **Bootstrap**.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Basic arithmetic operations (+, -, ×, ÷, %)
+- Clear (AC) and Delete (DEL) functionality
+- Responsive and clean UI using Bootstrap
+- Error handling for invalid expressions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Installation
 
-## Expanding the ESLint configuration
+1. **Clone the repository:**
+   ```bash
+   git clone [React-Calculator](https://github.com/asharaam1/05-Calculator)
+   cd 05-Calculator
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+## 🛠 Usage
+- Click the buttons to input numbers and operators.
+- Press `=` to evaluate the expression.
+- Press `AC` to clear the input.
+- Press `DEL` to delete the last character.
+
+## 🖼 Preview
+![Calculator Preview](./src/assets/image.png)
+
+## 🏗 Built With
+- **React.js** - Frontend framework
+- **Bootstrap** - Styling framework
+
+## ✨ Author
+**Asha Ram**  
+LinkedIn: [Asha Ram](https://www.linkedin.com/in/asha-ram/)  
+GitHub: [Asha Ram](https://github.com/asharaam1)

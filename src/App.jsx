@@ -62,7 +62,7 @@ function App() {
           <Col xs={3}><Button variant="outline-dark" className="w-100 mb-2" onClick={showNumber} value='+'>+</Button></Col>
         </Row>
         <Row>
-          <Col xs={6}><Button variant="outline-dark" className="w-100 mb-2" value={0}>0</Button></Col>
+          <Col xs={6}><Button variant="outline-dark" className="w-100 mb-2" onClick={showNumber} value={0}>0</Button></Col>
           <Col xs={3}><Button variant="outline-dark" className="w-100 mb-2" onClick={showNumber} value='.'>.</Button></Col>
           <Col xs={3}><Button variant="outline-dark" className="w-100 mb-2" onClick={operations} >=</Button></Col>
         </Row>
