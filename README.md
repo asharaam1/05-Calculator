@@ -19,6 +19,8 @@ A simple calculator built using **React.js** and **Bootstrap**.
 2. **Install dependencies:**
    ```bash
    npm install
+   npm install bootstrap
+   npm install react-bootstrap
    ```
 
 3. **Start the development server:**
